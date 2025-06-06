@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(fonts/SourceSansPro-Regular.otf);
+}
+
+* {
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("imgs/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+header div a {
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.home {
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+}
+
+.home h1 {
+    font-size: 120px;
+}
+
+.home p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.three-words {
+    word-spacing: 30px;
+}
+
+.register-btn{
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+    background: #C271FF;
+    border-radius: 22px;
+    font-size: 14px;
+    padding: 14px 19px;
+    color: white;
+    margin-top: 20px;
+    border: none;
+}
+
+section {
+    margin-top: 5em;
+}
+
+
+.banner {
+    margin-top: 150px;
+}
+
+.banner h2 {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.bold-word {
+    font-weight: 700;
+    color: #C271FF;
+}
+
+
+.persons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.persons div {
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote {
+    background: #C271FF;
+    padding: 100px 300px;
+    height: 200px;
+    color: white;
+}
+
+.quote img {
+    float: left;
+}
+
+.quote div{
+    float: right;
+    width: 80%;
+    font-size: 1.5em;
+    display:flex ;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.person-name{
+    font-weight: 600;
+}
+
+.tutorials{
+    padding: 50px 150px;
+}
+
+.tutorials h1,.membership h1{
+    font-size: 32px;
+    text-align: center;
+}
+
+
+.tutorials>div{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.tutorials>div>div{
+    width: 245px;
+    font-size: 14px;
+}
+
+.profile-name{
+    display: flex;
+    margin-top: 15px;
+}
+
+.profile-name p, .profile-name h3{
+    color: #C271FF;
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+.profile-name p{
+    margin-left: auto;
+}
+
+.membership{
+    background-color: #071629;
+    color: white;
+    padding: 100px 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.membership>div{
+    display: flex;
+    gap: 80px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.membership img{
+    width: 43.67px;
+}
+
+.membership>div div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.membership p{
+    line-height: 2em;
+}
+
+.faq{
+    padding: 70px 200px 150px;
+}
+
+.faq h1{
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.faq>div{
+    display: flex;
+    gap: 20%    ;
+    margin-top: 100px;
+}
+
+.faq h2{
+    margin-bottom: 40px;
+}
+
+
+.faq p{
+    line-height: 2em;
+    color: rgba(7, 22, 41, 0.501584);
+    font-size: 16px;
+}
+
+footer{
+    background-color: #071629;
+    padding: 100px 150px 50px;
+    text-align: center;
+    color: rgba(255,255,255,0.35);
+}
+
+.footer-flexbox{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.footer-flexbox img{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
