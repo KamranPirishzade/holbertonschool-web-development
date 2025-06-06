@@ -1,35 +1,37 @@
-🎨 Figma to HTML & CSS — Homepage Template
-📁 Project Overview
-This project is focused on translating a Figma homepage design into a fully functional web page using only HTML and CSS — without any JavaScript or external frameworks.
+# 🎨 Figma to HTML & CSS — Homepage Template
 
-The goal is to accurately replicate the visual design, layout, spacing, colors, and typography defined in the Figma file:
-👉 Figma Design Link
+## 📁 Project Overview
 
-🎯 Objectives
-Recreate a static homepage layout from a Figma design
+This project is a **pixel-perfect recreation** of a homepage designed in Figma using only **HTML** and **CSS** — no JavaScript or frameworks. The goal is to closely follow the design, structure, and style specified in the Figma file.
 
-Use semantic HTML5 structure
+🔗 [Figma Design Link](https://www.figma.com/file/XrEAsu1vQj5fhVaNG38d2W/Homepage)
 
-Implement responsive design techniques
+---
 
-Apply modern CSS features such as Flexbox, Grid, variables, and transitions
+## 🎯 Objectives
 
-Match typography, spacing, colors, and visual hierarchy closely to the Figma file
+- Convert Figma layout to a static web page
+- Use semantic HTML5 structure
+- Style layout with modern CSS (Flexbox, Grid, Variables)
+- Make the layout responsive across screen sizes
+- Match the typography, spacing, and color palette
 
-🧠 Key Concepts Used
-Semantic HTML5 structure (header, nav, main, section, footer)
+---
 
-CSS Flexbox and Grid for layout
+## 🧠 Key Concepts Used
 
-CSS custom properties (variables) for consistent styling
+- ✅ Semantic HTML5 elements (`<header>`, `<section>`, `<footer>`)
+- ✅ Flexbox and Grid for layout
+- ✅ Responsive design with `@media` queries
+- ✅ CSS variables for theme consistency
+- ✅ Transitions and hover effects
+- ✅ Clean, modular CSS
 
-Responsive design with @media queries
+---
 
-Hover states and basic transitions
+## 🛠️ Technologies
 
-Pixel-perfect alignment to Figma design specs
+- HTML5
+- CSS3
 
-🛠️ Technologies
-HTML5
-
-CSS3
+---
